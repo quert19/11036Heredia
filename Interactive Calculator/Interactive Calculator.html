@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interactive calculator</title>
+<link rel="stylesheet" href="Interactive Calculator.css">
+<script src="Interactive Calculator.js"></script>
+</head>
+<body>
+<h1>Interactive Calculator</h1>
+<form>
+
+1st Number: <input type="text" id="value1"><br>
+2nd Number: <input type="text" id="value2">
+<br> Operator:
+<select id="operator">
+<option value="add">+</option>
+<option value="min">-</option>
+<option value="div">/</option>
+<option value="mul">x</option>
+
+</select>
+<br>
+<button type="button" onclick="calc()">Calculate</button>
+</form>
+<div class="result">
+result =
+</div>
+
+<button onclick="mode()"> Switch Mode</button>
+
+</body>
+</html>

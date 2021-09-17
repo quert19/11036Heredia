@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    }
+    
+    form {
+    font-size: 25px;
+    color: blue;
+    font-weight:bold;
+    
+    }
+    #operator {
+    color: green;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+    }
+    button {
+    padding: 1px;
+    font-size: 20px;
+    color: green;
+    margin-left: 125px;
+    font-weight: bold;
+    }
+    h1{
+    font-family: Verdana;
+    color: green;
+    }
+    input {
+    padding: 10px;
+    }
+    .result {
+    font-size: 30px;
+    color: rgb(19, 40, 231);
+    margin-left: 125px;
+    }
+
+    .dark-mode {
+        background-color: black;
+        color: white;
+      }
